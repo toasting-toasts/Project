@@ -1,0 +1,62 @@
+body{
+    background-color: rgb(32, 32, 32);
+    height: 100vh;
+    width: 100vw;
+    margin: 0;
+    }
+    header{
+        background-color: rgb(18, 18, 18);
+        box-sizing:border-box ;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .menu{
+        display: flex;
+        flex-direction: row;
+        height: 100%;
+        width: 15%;
+        align-items: center;
+        justify-content: space-around;
+    }
+    .theme{
+        scale: 2;
+        margin:1.5rem;
+        border: none;
+        background-color: rgb(30, 30, 30);
+        border-radius: 35%;
+        cursor: pointer;
+        color: orange;
+        text-align: center;
+    }
+    img{
+        height: auto;
+        width: 400px;
+    }
+    .andriy{
+        color: orange;
+        border-radius: -10%;
+        border: solid 0.2px black;
+        background-color:rgb(23, 32, 32) ;
+    }
+    .illya{
+        color: orange;
+        border-radius: -10%;
+        border: solid 2px black;
+        background-color:rgb(23, 32, 32) ;
+    }
+    footer{
+        background-color: rgb(18, 18, 18);
+        box-sizing:border-box ;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        color: orange;
+    }
+    main{
+        background-color:rgb(23, 32, 32) ; ;
+        padding: 0;
+        margin: 0;
+    }
